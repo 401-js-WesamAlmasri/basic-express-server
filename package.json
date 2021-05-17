@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/401-js-WesamAlmasri/basic-express-server/issues"
   },
-  "homepage": "https://github.com/401-js-WesamAlmasri/basic-express-server#readme"
+  "homepage": "https://github.com/401-js-WesamAlmasri/basic-express-server#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1"
+  }
 }
