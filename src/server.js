@@ -16,7 +16,7 @@ app.get('/person', validator, (req, res, next) => {
   });
 });
 
-app.get('*', pageNotFoundHandler);
+app.use('*', pageNotFoundHandler);
 app.use(errorHanlder);
 
 function start(port) {
